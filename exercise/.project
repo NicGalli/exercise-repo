@@ -24,7 +24,7 @@
 		<link>
 			<name>.github</name>
 			<type>2</type>
-			<location>/home/nic/git/exercise-repo/.github</location>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/.github</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
