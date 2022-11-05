@@ -2,7 +2,7 @@ package org.galli.exercise;
 
 /**
  * Hello world!
- *niccolo
+ *niccolo g
  */
 public class App 
 {
