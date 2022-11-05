@@ -17,5 +17,11 @@ jobs:
     with:
      distribution: 'temurin'
      java-version: '17'
+  - name: Cache maven m2 folder
+    uses: actions/cache@v2
+    with:
+     path: $HOME/.m2
+     key: ${{runner.os}}-m2-${{hashFiles('**/pom.xml')}}
+     restor-keys: ${{runner.os}}-m2-
   - name: Build with Maven
     run: mvn -f exercise/pom.xml clean verify
